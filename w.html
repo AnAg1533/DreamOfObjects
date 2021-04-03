@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <title></title>
+        <link rel='stylesheet' href='../styles/style2.css'/>
+    </head>
+    <body>
+        <h1 id='TopTitle'> Learn to code in JavaScript</h1>
+        <header>
+            <a href="../index.html">Home</a>
+            <span class='vl'></span>
+            <a href="../pages/HTMLCourse.html">HTML & CSS</a>
+            <span class='vl'></span>
+
+            <a href="../pages/JavascriptCourse.html">JavaScript</a>
+            <span class='vl'></span>
+
+            <a href="../pages/PHPCourse.html">PHP</a>
+            <span class='vl'></span>
+
+            <a href="../pages/SQLCourse.html">SQL</a>
+            <span class='vl'></span>
+
+            <a href="../pages/CCourse.html">C / C++</a>
+            <span class='vl'></span>
+
+            <a href="../pages/PythonCourse.html">Python</a>
+
+        </header>
+
+                <nav>
+                    <span>Search  :</span><input type='search' placeholder='Search here' id='SearchBar'/>
+                    <!-- don't change the type of the list, if you do it'll create a problem in the script -->
+                    <!-- if you do it'll create a displayproblem in the aside -->
+                    <ul id='OrderedList' type='none'>
+                        
+                        <li id='li1' class='LI'>       <a href='#StartUP'>Before you get started</a><br/></li>
+                        <li id='li2' class='LI'>       <a href='#Setup'>Setup your workplace</a><br/></li>
+                        <li id='li3' class='LI'>       <a href='#Variables'>Variables</a><br/></li>
+                        <li id='li4' class='LI'>       <a href='#Conditionals'>Loops & Conditionals</a><br/></li>
+                        <li id='li5' class='LI'>       <a href='#Text'>Store data in tables</a><br/></li>
+                        <li id='li6' class='LI'>       <a href='#Links'>Add functions</a><br/></li>
+                        <li id='li7' class='LI'>       <a href='#Images'>Create your first objects(Coming soon)</a><br/></li>
+                        <li id='li8' class='LI'>       <a href='#Videos'>Oriented Object Programming with  JavaScript(Coming soon)</a><br/></li id='ID'>
+                   
+                    </ul>
+                </nav>
+
+                <section id='MainJS'>
+                  <strong>  
+                      <h1 id='StartUP'>
+                        Forced induction
+                      </h1>
+                 </strong>
+                    <p>
+                        Before we go straight to writing hundreds of lines of code, this will be a brief <br/>
+                        introduction that will inform you :<br/>
+                        <ul>
+                            <li>A small history about <strong>JavaScript</strong></li>
+                            <li>Advantages and disadvantages of <strong>JavaScript</strong></li>
+                            <li>What is the use of <strong>JavaScript</strong> and what you can also learn</li>
+                        </ul>
+                    </p>
+
+                    <h2 id='Introduction'>Small history</h2>
+                    <p>
+                        Javascript was created by Brendan Eich during his time with Netscape at 1995<br/>
+                        originally inspired by <strong>Java</strong>, javascript dominated the market<br/>
+                        back at the day .<br/>
+                        <a href='https://en.wikipedia.org/wiki/JavaScript' target='blank'>More information here</a>
+                    </p>
+                    <h2>
+                        Advantages and disadvantages of <strong>Javascript</strong>
+                    </h2>
+                    <p>
+                        Advantages of <strong>Javascript</strong> :
+                        <ul>
+                            <li>  
+                                Easy syntax : <strong>javascript's</strong> syntax makes it an easy language to learn<br/>
+                                as you can understand it easily especially for teamwork
+                            </li>
+                            <li>
+                                Multiple uses : wich is one of the strongest javascript advantages, you can use it for a <br/>
+                                lot of stuff, such as <strong>Web Developpment</strong>,<strong>video game developpment</strong>,
+                                <strong>Desktop & phone applications</strong><br/>
+                            </li>
+                            <li>
+                                <strong>JavaScript</strong> has a variety of frameworks and libraries that allow you to do a lot of stuff <br/>
+                                and minimize your time
+                            </li>
+
+                        </ul>
+                    </p>
+
+                    <h2 id='Setup'>
+                        Setup your environment for <strong>JavaScript</strong> 
+                    </h2>
+                    <p>
+                        To setup your work environment, you primarely need two things :<br/>
+                        <ul>
+                            <li><strong>Code Editor</strong></li>
+                            <li><strong>Compiler & Debugger</strong></li>
+                        </ul>
+
+                        The code editor is the application that you will type your code in <br/>
+                        for example : <br/>
+                                    <ul>
+                                        <li>
+                                            Visual Studio Code : <a target='blank' href='https://code.visualstudio.com/'>Download here</a><br/>
+                                        </li>
+                                        <li>
+                                            NotePad ++ : <a target='blank' href='https://notepad-plus-plus.org/downloads/'>Download here</a><br/>
+                                        </li>
+                                        <li>
+                                            Microsoft Visual Studio :<a target='blank' href='https://visualstudio.microsoft.com/'>Download here</a><br/>
+                                        </li>
+                                    </ul>
+                        The Compiler is what translates your code to binaries (0 and 1) so that your computer can understand it<br/>
+                        in our case, we will be using a browser's console as it is easy and fun to learn, you'll preferably need<br/>
+                        some basic HTML5 Knowledge, you can find it <a target='blank' href='./HTMLCourse.html#Structure'>Here</a> so that we get started , and just like a<br/>
+                        compiler, you have a variety of choices, this time it's wider <br/>
+                        <ul>
+                            <li>
+                                Google Chrome : <a href='https://www.google.com/chrome/'>Download here</a>
+                            </li>
+                            <li>
+                                Opera : <a href='https://www.opera.com/fr/download'>Download here</a>
+                            </li>
+                            <li>
+                                Safari : <a href='https://support.apple.com/downloads/safari'>Download here</a>
+                            </li>
+                            <li>
+                                Brave : <a href='https://brave.com/download/'>Download here</a>
+                            </li>
+                            <li>
+                                Mozilla firefox : <a href='https://www.mozilla.org/en-US/firefox/new/'>Download here</a>
+                            </li>
+                        </ul> 
+                        just to let you know, we're using <strong>Visual Studio Code</strong> and <strong>Google Chrome</strong><br/>
+                        to teach you how to start working in Javascript , everything you'll write in your code is called instructions<br/>
+                        <strong>instructions</strong> are orders you give to your programm, each instruction ends with a <strong>semicolon ;</strong><br/>
+                        
+
+                    </p>
+                    <h2 id='Variables'>Declare and use <strong>Variables</strong></h2>
+                    <p>
+
+                        A <strong>Variable </strong> is a storage location that is associated to store information, and it can<br/>
+                        be identified by it's unique name <br/>
+                            <ul>
+                                <li>a variable's name cannot contain spaces, only underscores '_'</li>
+                                <li>a variable's name must begin with a letter, an underscore or a dollar sign '$'</li>
+                                <li>variable names can only contain underscores,dollar signs, letters and numbers</li>
+                            </ul>
+
+                            There are two ways to declare a variable :<br/>
+                        <div id='White'>
+
+                            <span id='prefix'>var</span> <span id='name'>VariableName </span> = <span id='value'>value</span><br/>
+                            <span id='prefix'>let</span> <span id='name'>VariableName </span> = <span id='value'>value</span><br/>
+                        </div>    
+                        in order to compile your code, open your browser, press <strong>CTRL + SHIFT + I</strong>  to open the<br/>
+                        developper tools then choose the console .then, you can either type the script directly in the console<br/>
+                        or you can type it in the html file we've created earlier,
+                        this is what you should type in your script in order to show the value of a variable in the console<br/>
+
+                        <div id='White'>
+                            var age = 15;<br/>
+                            console.log(age);
+                        </div>
+                        wich displays 15 in the screen <br/>
+                        there are multiple data types that can be stored in a variable, and that are resumed <br/>
+                        in the table Down here :
+                            <table>
+                                <tx>
+                                    <th>Type</th>
+                                    <th>Definition</th>
+                                <tx>
+                                <tr>
+                                    <td>integer</td>
+                                    <td>natural numbers</td>
+                                </tr>
+                                <tr>
+                                    <td>float or double</td>
+                                    <td>numbers that contain a comma </td>
+                                </tr>
+                                <tr>
+
+                                    <td>
+                                        string
+                                    </td>
+                                    <td>all ascii characters as long as they're considered as text</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        bool
+                                    </td>
+                                    <td>
+                                        returns as a value true or false, and is generally made to check
+                                    </td>
+                                </tr>
+                            </table>
+
+                            luckly, you don't really have to define the type of your variable when declaring<br/>
+                            it in javascript,so here's how to declare the type of each variable <br/>
+                            <img src='../images/Capture.png'/>
+
+
+                    </p>
+                    <h2 id='Conditionals'>
+                        Make decisions and Repeat instructions using <strong>Loops and Conditionals</strong> 
+                    </h2>
+                    <h2>Conditions</h2>
+                    <p>
+                        So variables are cool, but you wanna make your program make decisions, it's <br/>
+                        simple, you have to use either <strong>Conditions</strong> or <strong>loops</strong><br/>
+                        a, both <strong>Conditions</strong> and <strong>Loops</strong> work under the same<br/>
+                        principle, they execute instructions after testing whether a statment is true or false<br/>
+                        the only difference, is that a <strong>Condition</strong> is only executed <mark>once</mark> while<br/>
+                        a <strong>loop</strong> is executed <mark>multiple times</mark>,till there is an <strong>exist condition</strong><br/>
+                        now don't worry if you don't get what i'm saying for now, we'll be talking about it in details<br/>
+                        later .<br/>
+                    </p>
+
+                    <h2>Conditions</h2>
+
+                    <p>
+                        this is the general syntax of a <strong>simple condition</strong> in javascript :<br/>
+                        <div id='White1'>
+
+                            if( <span id="Comment">// condition here</span>)<br/>
+                            { <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span id="Comment">//instructions to execute if condition is true;</span><br/>
+                            };<br/>
+
+                        </div>
+                        <br/>
+
+                        the green text that's preceeded by <strong>'//'</strong> two slashes is a <strong>Comment</strong>'//'</strong>>,comments don't have <br/>
+                        any effect on your code, it only helps you understand what you did and give yourself indications the<br/>
+                        next time you will use your code or perhaps if you're working together with your team<br/>
+                        
+                        this scheme explains how conditions work : <br/>
+
+                        <img src='../images/ConditionsScheme.jpg' id='IMG1'/><br/>
+                    </p>
+
+                    <p>
+                        One condition is cool, but what if you wanna use a condition that exeutes instructions based on multiple tests <br/>
+                        note that there are two ways  to write a multiple statment condition, the first is using the if statement, the <br/>
+                        second is by using switch statment this is the general syntax of what you will need to write, and it's as simple<br/>
+                         as a <strong>simple condition</strong><br/>
+                        
+                    </p>
+                    <div id='White1'>
+                            if(<span id='Comment'>//condition 1</span> )<br/>
+                            {<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>//instructions to execute</span><br/>
+                            }<br/>
+                            else if (<span id='Comment'>//condition 2</span>)<br/>
+                            {<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>//instructions to execute</span><br/>
+                            }<br/>
+                            else <br/> 
+                            {<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>//if none of the conditions is true this <br/>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;    //is the code that'll be executed</span><br/>
+                            }<br/>
+                    </div><br/><br/>
+                    <img src='../images/ConditionsScheme2.jpg' id='IMG1'/>
+                    <p>
+                        Note that you can add as many <strong>'else if'</strong> statments as you want <br/>
+                    </p>
+                    <div id='White1'>
+                        switch(<span id='Comment'>//expression</span>)<br/>
+                         {<br/>
+                            &nbsp;&nbsp;case <span id='Comment'>//first case here</span>:<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>// code block</span><br/>
+                            &nbsp;&nbsp;break;<br/><br/>
+                            &nbsp;&nbsp;case <span id='Comment'>//first case here</span>:<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>// code block</span><br/>
+                            &nbsp;&nbsp;break;<br/><br/>
+                            &nbsp;&nbsp;default:<span id='Comment'>//if no 'case' is true this is the executed instruction</span><br/><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span id="Comment">// code block</span><br/>
+                          }<br/>
+                          
+                    </div>
+                    <br/><br/>
+                    <img src='../images/ConditionsScheme3.jpg' id='IMG1'/>
+                    <p>
+                        both <strong> switch</strong> and <strong>if</strong> statements work under the same principle, but we will be<br/>
+                        mostly using the <strong>if</strong> statement in this course , however, i'll have an explainatory video that'll <br/>
+                        clarify everything after i explain how loops work<br/>
+                    </p>
+                    <br/>
+                <h2>Loops</h2>
+                <p>
+                    <strong>Loops</strong> are decision making structures that are but, and in opposition to <strong>Conditions</strong><strong>Loops</strong>
+                   , the instructions inside<br/>
+                    a loop are executed repeatdly until the there's an <strong title='condition that turns either true or false to get you out of the structure'>exit condition</strong>
+                    that ends the condition. there are two ways to write a <br/> loop in javascript : <br/>
+                </p>
+                    the <strong>While</strong> loop
+                    <div id="White1">
+                        while (<span id='Comment'>//Entry Condition</span>)<br/>
+                        {<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>//instructions that are executed while the loop is true</span><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>//this wont stop till the entry condition is false</span><br/>
+                        }<br/>
+                    </div>
+                <p>
+                    note that you can manually stop the loop by adding the keyword <strong>break ;</strong> anywhere inside<br/>
+                    the body of your loop to stop it, but the code after the <strong>break;</strong> won't be executed , so this<br/>
+                    keyword is usually written in the end of the loop or inside a condition that cancels the entry condition<br/>
+                </p>
+
+                <p>
+                    the <strong>for</strong> loop unlike the<strong>While</strong>loop is executed a specefic amount of times<br/>
+                    that you can define, you need to :
+                                                <ul>
+                                                    <li>
+                                                        a variable that contains the starting value of the loop
+                                                    </li>
+                                                    <li>
+                                                        setting a limit to the variable, (defining how many times <br/>
+                                                        the loop will render)
+                                                    </li>
+                                                    <li>
+                                                        defining the step, wich is how much the value will increase or<br/>
+                                                        decrease during the loop before it reaches the limit<br/>
+                                                    </li>
+                                                </ul>
+                    This is the genereal syntax of a <strong>For Loop</strong>While</strong>:
+                </p>
+                <div id='White2'>
+                    for(<span id='Comment'>Declaring the starting value</span>; <span id='Comment'>Setting the end Value</span> ; <span id='Comment'>The step value</span>)<br/>
+                    {<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>// instructions to execute</span><br/>
+                    }<br/>
+                </div>
+                <p>
+                    This list contains the <strong>operators</strong> that you will use to test your <strong>Conditions</strong> and <strong>Loops</strong><br/>
+
+                    <table id='Operators'>
+                        <tr>
+                            <th>Operator</th>
+                            <th>Functionality</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                ==
+                            </td>
+                            <td>
+                                Equal to
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                &lt;
+                            </td>
+                            <td>
+                                inferior to
+                            </td>
+                        </td>
+                        <tr>
+                            <td>
+                                &gt;
+                            </td>
+                            <td>
+                                superior to
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &lt;=
+                            </td>
+                            <td>
+                                inferior or equal
+                            </td>                      
+                        </tr>
+                        <tr>
+                            <td>
+                                &gt;=
+                            </td>
+                            <td>
+                                superior or equal
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+                <p>
+                    Don't worry if you face some difficulties now, i will have a video where i clarify for you everything.
+                </p>
+                <h2>Store data in tables</h2>
+                <p>
+                    <strong>Tables</strong> in javascript,allow you to store multiple data in one variable<br/>
+                    this is the general syntax of a Table <br/>
+                </p>
+                <div id='White2'>
+                    Table = [ <span id='Comment'>'variable' , 12 , 123.32123 , true</span> ]<br/>
+                    Table2= [ ];<br/>
+                </div>
+                <p>
+                    as you may notice, a <strong>table</strong> in javascript can contain all types of data<br/>
+                    (integer,double,string,bool)<br/>
+                    the second line shows you how to declare an empty table<br/>
+                </p>
+                <h2>Modularise your code using functions</h2>
+                <p>
+                    <strong>Functions</strong> are pieces of code that'll allow you to write shorter code, so instead of writing<br/>
+                    the same thing once,you can define a <strong>function</strong> and call it everytime you need it, a function<br/>
+                    can have as much parameters as you want, it can also contain no parameters wich means you'll leave what's <br/>
+                    between the brackets empty<br/>
+                    this is the general syntax of a function
+                </p>
+                
+
+                <div id='White2'>
+                    function  Name(<span id='Comment'>You put the parameters here</span>)<br/>
+                    {<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span id='Comment'>You write the instructions to execute here</span><br/>
+                    }<br/>
+
+                    <span id='Comment'>Down here is how you call the function</span><br/>
+                    Name(<span id='Comment'>Parameters</span>);<br/>
+
+                    <span id='Comment'>//Mi Gna</span>
+                </div>
+
+                <p>Example of defining and calling a function :</p>
+                <div id='White2'>
+                    function Add(Param1,Param2)<br/>
+                    {<br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;return Param1+Param2;<br/>
+                    }<br/>
+                    console.log(Add(1,2));<br/>
+                </div>
+                <p>
+                    As you may notice, there's a new word wich is <strong>return</strong>, return specifies the <br/>
+                    value that you want your function to return, for the example i just wrote, the function returns<br/>
+                    the result of an addition of the two parameters, then the function is called to be executed to<br/>
+                    to show the addition of the 2 and 1 wich will display 3 in the console.<br/>
+                    if the function has no parameter and you wanna add a <strong>return</strong> in your function<br/>
+                    the returned value has to be created inside the function as a <strong>variable</strong>
+                </p>
+               
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5ne51pP20DU"
+                 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                 allowfullscreen></iframe>
+
+                </section>
+    </body>
+</html>

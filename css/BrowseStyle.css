@@ -1,0 +1,204 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background:linear-gradient(to right,#000000,#0E0E0E);
+}
+
+header
+{
+    margin-top:25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+h1
+{
+    color:white;
+}
+
+.Home
+{
+    background-color:#4655FA;
+    cursor:pointer;
+    height:100px;
+    width:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:150px;
+    border:outset #3948ee;
+}
+.Home:hover
+{
+    background:linear-gradient(to right,#4655FA,#3948ee);
+    border:inset #3948ee;
+    transition:1s;
+}
+.Icon1
+{
+    height:50px;
+    width:50px;
+}
+
+.FiltersSection
+{
+    margin-top:50px;
+}
+
+
+.Forms
+{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+input
+{
+    text-align:center;
+    padding:5px;
+    border-radius:5px;
+    border:solid black;
+}
+
+select
+{
+    padding:5px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.Filter
+{
+    width:150px;
+    color:#3948ee;
+    border:solid #3948ee;
+    border-radius:5px;
+    background:none;
+    font-weight:BOLD;
+}
+
+.Filter:hover
+{
+    background-color:#3948ee;
+    color:white;
+    transition:0.3s;
+}
+
+.SearchButton
+{
+    padding:5px;
+    height:40px;
+    width:40px;
+    background-color:#3948ee;
+    border-radius:100px;
+    cursor:pointer;
+}
+
+.CategoryFilter2 div
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:white;
+    padding:5px;
+    border-radius:100px;
+}
+
+.SearchBar
+{
+    background:none;
+    border:none;
+}
+
+.BrowseSection
+{
+    border:solid white;
+    margin-top:50px;
+    width:900px;
+    padding:30px;
+}
+.Main
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+.Card1
+{
+    padding:15px;
+    background:white;
+    border:solid white;
+    border-radius:5px;
+    display:flex;
+    justify-content:space-evenly;
+    padding:15px;
+    margin-bottom:5px;
+
+}
+
+
+#IMG
+{
+    height:250px;
+    width:200px;
+    box-shadow:5px;
+}
+.CardImg1
+{
+    height:250px;
+    width:200px;
+    box-shadow:5px;
+}
+
+.Information
+{
+    color:black;
+    font-size:1.2em;
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+.Information a
+{
+    color:#3948ee;
+    border:solid #3948ee;
+    border-radius:5px;
+    padding:15px;
+    width:150px;
+    font-weight:bold;
+    transition:0.3s;
+    width:500px;
+    text-align:center;
+}
+
+.Information a:hover
+{
+    background-color:#3948ee;
+    border:#3948ee solid;
+    border-radius:5px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.Sub1
+{
+    display:none;
+}
+
+.SearchButton:hover
+{
+    border:inset #334FE2 1.5px;
+    background:linear-gradient(to-right,#334FE2,#1330C2);
+    transition:0.3s;
+}

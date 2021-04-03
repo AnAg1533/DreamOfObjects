@@ -1,0 +1,754 @@
+html
+{
+    scroll-behavior: smooth;
+}
+.LinkContainer
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:800px;
+}
+.MainLinkContainer
+{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top:25px;
+    background-image:url();
+}
+
+body
+{
+     /*background-color:#0E0E0E;*/
+     background-image:linear-gradient(to right,#0E0E0E, #000000);
+}
+
+.LinkContainer .linked
+{
+    font-size:1.5em;
+    color:white;
+    font-weight:bold;
+}
+
+.LinkContainer .linked:hover
+{
+    text-decoration:none;
+    color:#4655FA;
+    transition:0.3s;
+    border-bottom:solid #4655FA;
+}
+
+.Contact
+{
+    margin-left:15px;
+    margin-right:15px;
+    text-decoration:none;
+    padding:15px;
+    padding-right:20px;
+    padding-left:20px;
+    color:#4655FA;
+    border:solid #4655FA;
+    font-size:1.5em;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.Contact:hover
+{
+    background-color:#4655FA;
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+video
+{
+    height:315px;
+    width:560px;
+    border-radius:5px;
+    background-image: linear-gradient(to right,#1A14EB, #4655FA);
+    padding:1.5px;
+}
+
+.MainContent
+{
+    margin-top:150px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+
+h1
+{
+    color:white;
+    font-size:3em;
+}
+h3
+{
+    color:white;
+    text-align:center;
+}
+.Container2 a
+{
+    text-align:center;
+    font-size:2em;
+    font-weight:bold;
+    color:#4655FA;
+    border:#4655FA solid;
+    border-radius:5px;
+    padding:20px;
+    padding-right:25px;
+    padding-left:25px;
+    margin-top:30px;
+
+}
+
+.Container2 a:hover
+{
+    color:white;
+    text-decoration:none;
+    background-color:#4655FA;
+    transition:0.3s;
+}
+
+.Container2
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+}
+
+.Selected
+{   
+    font-size:1.5em;
+    text-decoration:none;
+    color:#4655FA;
+    transition:0.3s;
+    border-bottom:solid #4655FA;
+    font-weight:bold;
+}
+
+.Selected:hover
+{   
+    font-size:1.5em;
+    text-decoration:none;
+    color:#4655FA;
+    transition:0.3s;
+    border-bottom:solid #4655FA;
+    font-weight:bold;
+}
+.Prices
+{   
+    
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.Price
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+    padding:20px;
+    /*background:linear-gradient(to right,#050505,#313131);*/
+    background-image:linear-gradient(to right,#000000,#0E0E0E );
+    width:350px;
+    margin-top:250px;
+    min-height:500px;
+    border:5px;
+    max-width:300px;
+   
+}
+
+.Price:hover
+{
+    box-shadow: 0 0 10px #4655FA,0 0 20px #4655FA, 0 0 30px #4655FA;
+    transition:0.3s;
+}
+
+.Price h3
+{
+    font-size:1.3em;
+}
+
+.Price h1
+{
+    color:#4655FA;
+    padding-bottom:15px;
+    border-bottom:solid #4655FA;
+    font-weight:bold;
+    margin-bottom:15px;
+    font-size:2em;
+}
+
+.Price .Ab
+{
+    color:white;
+    border:none;
+}
+
+.Covers
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.Cover
+{
+    height:500px;
+    width:300px;
+    padding:50px;
+}
+
+.Courses
+{
+    margin-top:150px;
+}
+
+.div2
+
+{
+    border-left: solid white 5px;
+    height:250px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.About
+{
+    border:solid white 5px;
+    border-radius:15px;
+    padding:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:150px;
+}
+
+.About p
+{
+    color:white;
+    font-size:1.3em;
+}
+
+.Icon
+{
+    height:50px;
+    width:50px;
+}
+
+.L
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:450px;
+    padding:50px;
+}
+
+.L p
+{
+    color:white;
+    font-size:1.5em;
+    padding:5px;
+    padding-right:15px;
+    padding-left:15px;
+}
+.L a
+{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.Pro
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+}
+
+.Pro a
+{
+    font-size:1.5em;
+    color:white;
+}
+
+.mid
+{
+    border-left:solid white 5px;
+    height:250px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.ContactUS
+{
+    border:solid white 5px;
+    border-radius:15px;
+    margin-top:150px;
+    margin-bottom:150px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    padding:50px;
+    max-width:1200px;
+}
+
+.ContactUS div
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.SocialM
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.Pro
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.Pro a
+{
+    padding:50px;
+}
+
+.C
+{
+    display:flex;
+    justify-content:center;
+}
+
+.NewSettler
+{
+
+}
+.NewSettler h1
+{
+    font-size:1em;
+}
+
+
+
+
+.NewSettler
+{
+    display:flex;
+    position:relative;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.NewsEmail
+{
+    background:none;
+    border:none;
+    padding:5px;
+    text-align:center;
+}
+
+.Con11
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:10px;
+
+    border:solid white;
+    border-radius:5px;
+    background:white;
+
+}
+
+.InBut
+{
+    border:none;
+    background:none;
+    font-size:1.2em;
+    color:#4655FA;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    border:solid #4655FA;
+    text-transform:uppercase;
+    border-radius:5px;
+
+}
+.InBut:hover
+{
+    color:white;
+    font-size:1.2em;
+    background:#4655FA;
+    transition:0.3s;
+}
+
+.ButtonS
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+hr
+{
+    color:white;
+    width:150px;
+}
+
+
+.NewSettler
+{
+    background:linear-gradient(to right,#000000,#0E0E0E );
+    padding:50px;
+    width:500px;
+    border:solid white;
+    border-radius:5px;
+    position:fixed;
+    left:100px;
+    top:100px;
+}
+
+.NewSettler h1
+{
+    font-size:1.5em;
+}
+
+.CloseN
+{
+    height:40px;
+    width:40px;
+    position:fixed;
+    left:550px;
+    top:110px;
+    cursor:pointer;
+}
+
+.LogReg
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:150px;
+    background:linear-gradient(to right,#000000,#0E0E0E);
+    padding:50px;
+    width:500px;
+    border:solid white;
+    border-radius:5px;
+}
+.Form1
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.Titles h1
+{
+    text-align:center;
+}
+
+.Input12
+{
+    border:none;
+    background:none;
+    text-align:center;
+    color:black;
+}
+.Input12:hover
+{
+    border:none;
+    background:none;
+}
+
+.Form1 div
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    background:white;
+    width:300px;
+    border-radius:5px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.Form2 div
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    background:white;
+    width:300px;
+    border-radius:5px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.Form2
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+}
+
+.GS
+{
+    display:flex;
+    justify-content:center;
+}
+
+.LOGON
+{
+    color:#4655FA;
+    border:solid #4655FA;
+    border-radius:5px;
+    background:none;
+    padding:10px;
+    padding-right:15px;
+    padding-left:15px;
+    font-weight:bold;
+    font-size:1.3em;
+    width:250px;
+
+
+}
+
+
+.LOGON:hover
+{
+    background-color:#4655FA;
+    color:white;
+    font-weight:bold;
+    font-size:1.3em;
+    transition:0.3s;
+}
+
+.REGISTER
+{
+    color:#4655FA;
+    border:solid #4655FA;
+    border-radius:5px;
+    background:none;
+    padding:10px;
+    padding-right:15px;
+    padding-left:15px;
+    font-weight:bold;
+    font-size:1.3em;
+    width:250px;
+
+
+}
+
+
+.REGISTER:hover
+{
+    background-color:#4655FA;
+    color:white;
+    font-weight:bold;
+    font-size:1.3em;
+    transition:0.3s;
+}
+
+
+.Titles
+{
+    display:flex;
+    flex-direction:row;
+    width:500px;
+    justify-content:space-evenly;
+}
+
+.Titles h1
+{
+    margin:10px;
+    margin-left:15px;
+    margin-right:15px;
+    font-size:2.5em;
+    cursor:pointer;
+}
+
+.RegF
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+    display:none;
+}
+
+.Active
+{
+    border-bottom:#4655FA solid 5px ;
+    font-size:2.5em;
+    color:white;
+}
+
+.Titles h1:hover
+{
+    
+    border-bottom:solid #4655FA 5px;
+    transition:0.4s;
+}
+
+.UpArrow
+{
+    height:50px;
+    width:50px;
+    padding:5px;
+    background:linear-gradient(to right,#1A14EB,#4655FA);
+    border:outset #4655FA 2px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+    position:fixed;
+    left:1450px;
+    top:690px;
+}
+
+.UpArrow:hover
+{
+    border:inset #4655FA 2px;
+    background:linear-gradient(to right,#4655FA,#1A14EB)
+}
+
+select
+{
+    border:none;
+    font-size:1.2em;
+}
+
+.Ab
+{
+    color:white;
+}
+
+div .Error
+{
+    color:red;
+    background:none;
+    font-weight:bold;
+    font-size:1em;
+}
+div .Error2
+{
+    color:red;
+    background:none;
+    font-weight:bold;
+    font-size:1em;
+}
+
+select
+{
+    width:250px;
+}
+
+.Error3
+{
+    color:red;
+    background:none;
+    font-weight:bold;
+    font-size:1em;
+    background:none;
+    text-align:center;
+}
+
+.Form2 .Error3
+{
+    background:none;
+
+}
+
+.Error4
+{
+    color:red;
+    background:none;
+    font-weight:bold;
+    font-size:1em;
+    background:none;
+    text-align:center;
+}
+
+.Form2 .Error4
+{
+    background:none;
+
+}
+
+.REGISTER:disabled
+{
+    background:none;
+    color:gray;
+    border:gray solid;
+    border-radius:5px;
+}
+
+.Error5
+{
+    color:red;
+    background:none;
+    font-weight:bold;
+    font-size:1em;
+    background:none;
+    text-align:center;
+}
+.Form2 .Error5
+{
+    background:none;
+
+}
+
+.Error6
+{
+    color:red;
+    background:none;
+    font-weight:bold;
+    font-size:1em;
+    background:none;
+    text-align:center;
+}
+.Form2 .Error6
+{
+    background:none;
+
+}
+
+.Error7
+{
+    color:red;
+    background:none;
+}
+
+
+div .Error7
+{
+    background:none;
+}

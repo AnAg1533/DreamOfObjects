@@ -1,0 +1,104 @@
+body
+{
+    margin:0;
+    padding:0;
+    background:linear-gradient(to right,#0E0E0E, #000000);
+}
+*
+{
+    margin:0;
+    padding:0;   
+}
+header
+{
+    margin-top:15px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+h1
+{
+    color:white;
+}
+
+.Home
+{
+    height:100px;
+    width:100px;
+    background:linear-gradient(to right,#1A14EB, #4655FA);
+    padding:20px;
+    border:outset #4655FA 3px;
+    border-radius:100px;
+}
+.Home:hover
+{
+    border:inset #4655FA 3px;
+    transition:0.3s;
+    background:linear-gradient(to right,#4655FA,#1A14EB );
+}
+input
+{
+    padding:15px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:5px;
+}
+
+.Name
+{
+    width:300px;
+    margin-left:15px;
+    margin-bottom:25px;
+}
+.Email
+{
+    margin-left:15px;
+    margin-bottom:25px;
+    width:615px;
+}
+
+.Sub
+{   
+    margin-bottom:25px;
+    margin-left:15px;
+    width:615px;
+}
+textarea
+{
+    margin-bottom:25px;
+    margin-left:15px;
+    width:615px;
+    height:250px;
+    padding:15px;
+}
+
+.SubMit
+{
+    margin-bottom:25px;
+    margin-left:15px;
+    width:615px;
+    color:#4655FA;
+    border:#4655FA;
+    border-radius:5px;
+    background:none;
+    border:solid #4655FA 1px;
+    font-size:1.2em;
+    font-weight:bold;
+}
+.SubMit:hover
+{
+    background:#4655FA;
+    color:white;
+    transition:0.3s;
+}
+section
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+select
+{
+    padding:15px;
+    border-radius:5px;
+}

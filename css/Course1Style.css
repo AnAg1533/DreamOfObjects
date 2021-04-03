@@ -1,0 +1,293 @@
+.Content
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    background-color:#EEF0F1;
+}
+
+
+body
+{
+    background:linear-gradient(to right , #E1E1E1, white);
+}
+
+aside
+{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    border:inset black;
+    padding:25px;
+    height:610px;
+    overflow-y:scroll;
+    padding-top:550px;
+    position:fixed;
+    left:20px;
+    top:120px;
+    background-color:#EEF0F1;
+    border-radius:3px;
+}
+.Top
+{
+    z-index:5;
+    padding:10px;
+     background:linear-gradient(to right,#000000,#0E0E0E );
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+aside div
+{
+    padding:10px;
+    width:250px;
+}
+
+section
+{   
+    position:relative;
+    width:1100px;
+    border:solid black;
+    padding:15px;
+    top:20px;
+    left:170px;
+    border-radius:3px;
+}
+
+.Top
+{
+    display:flex;
+    justify-content:space-around;
+}
+.KeyWord
+{
+
+}
+.Chapter
+{
+
+}
+.Emoji
+{
+    height:25px;
+    width:25px;
+}
+
+.tag
+{
+    color:#0088FF;
+}
+#none
+{
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+#dotted
+{
+    border:dotted black;
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+#dashed
+{
+    border:dashed blue;
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+#solid
+{
+    border:solid green;
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+#double
+{
+    border:double orange;
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+#groove
+{
+    border:groove red;
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+#ridge
+{
+    border:ridge purple;
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+#inset
+{
+    border:inset brown;
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+#outset
+{
+    border:outset turquoise;
+    padding:10px;
+    width:250px;
+    text-align:center;
+    margin:15px;
+}
+
+strong
+{
+    color:#341f97;
+}
+
+h1
+{
+    color:white;
+}
+
+.Chapter
+{
+    color:black;
+}
+
+.TopDiv
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.profile
+{
+    margin-left:50px;
+    margin-right:50px;
+    border:solid black;
+    border-radius:50px;
+    height:80px;
+    width:80px;
+}
+
+.profile:hover
+{
+    border:outset #EBB700;
+    transition:0.7s;
+}
+
+aside a
+{
+    color:black;
+}
+
+
+aside a:hover
+{
+    text-decoration:none;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:black;
+}
+aside div
+{
+    border-top: outset black 1px;
+}
+aside div:hover
+{
+    background-color:#D5D6D7;
+    transition:1s;
+}
+
+.N
+{
+    border:none;
+}
+
+.codeArea
+{
+    padding:10px;
+    margin:20px;
+    background:linear-gradient(to right,#0C0C0C,#292A2B);
+    color:white;
+    border:solid black;
+}
+
+.tutorial
+{
+    height:315px;
+    width:558px;
+}
+
+video
+{
+    border:solid black;
+    box-shadow:0px 5px 25px 5px rgba(0,0,0,0.3);
+}
+
+.selector
+{
+    color:#EBB700;
+}
+
+img , iframe
+{
+    border:solid black;
+    height:315px;
+    width:560px;
+}
+
+.Syntax
+{
+    color:#FA2560;
+}
+
+.GetStarted
+{
+    color:#4655FA;
+    border:solid #4655FA;
+    border-radius:5px;
+    width:1070px;
+    float:center;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:1.3em;
+}
+.GetStarted:hover
+{
+    color:white;
+    background:#4655FA;
+    transition:0.3s;
+}
+
+.EndButton
+{
+    color:#4655FA;
+    border:solid #4655FA;
+    border-radius:5px;
+    width:1000px;
+    float:center;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:1.3em;
+}
+.EndButton:hover
+{
+    color:white;
+    background:#4655FA;
+    transition:0.3s;
+}
+

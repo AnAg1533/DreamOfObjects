@@ -1,0 +1,556 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background:linear-gradient(to right,#0E0E0E, #000000);
+}
+
+.Cover
+{
+    background-image:url('../media/free.jpg');
+    background-size:100% 50%;
+    background-repeat:no-repeat;
+    height:300px;
+    margin-top:20px;
+    padding:100px;
+    border:solid white;
+    border-radius:20px;
+}
+
+nav
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-top:25px;
+}
+.Browse
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:700px;
+}
+.Browse button
+{
+    color:#4655FA;
+    font-size:1.2em;
+    border:#4655FA solid 1px;
+    padding:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    width:150px;
+    text-align:center;
+    margin-left:5px;
+    margin-right:5px;
+    font-weight:bold;
+    border-radius:5px;
+    background:none;
+}
+.Browse button:hover
+{
+    color:white;
+    background:#4655FA;
+    transition:0.3s;
+    text-decoration:none;
+    box-shadow: 0 0 10px rgb(38, 54, 226), 0 0 40px rgb(38, 54, 226),0 0 80px rgb(38, 54, 226);
+    border:none;
+}
+
+.Browse .Selected
+{
+    color:white;
+    background:#4655FA;
+    transition:0.3s;
+    text-decoration:none;
+}
+.Logo
+{
+    width:300px;
+}
+.Logo h1
+{   
+    text-align:center;
+    color:white;
+    font-size:1.8em;
+}
+
+.Profile
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.Profile div
+{
+    width:33%;
+    display:flex;
+    min-height:50px;
+    
+  
+}
+
+.Name
+{
+    color:white;
+    padding:30px;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.OffDiv
+{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:row;
+    align-items:center;
+}
+.OffButton
+{
+    height:60px;
+    width:60px;
+    padding:15px;
+    
+}
+.Logout
+{
+    border:outset #4655FA 3px;
+    border-radius:150px;
+    background:linear-gradient(to right,#104AC4,#4655FA);
+}
+.Logout:hover
+{
+    background:linear-gradient(to right,#4655FA,#104AC4);
+    border:inset #4655FA 3px;
+    transition:2s;
+}
+
+.ProfilePic
+{
+    border:solid white;
+    height:200px;
+    width:200px;
+    border-radius:200px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    position:relative;
+    left:250px;
+    top:-800px;
+    cursor:pointer;
+}
+.Content
+{
+    border:solid #4655FA;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+section
+{
+    background:linear-gradient(to right,#D1D1D1,#EEEEEE);
+}
+
+td
+{
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2em;
+    
+}
+.Search
+{
+    padding:15px;
+    border:none;
+    background:none;
+    text-align:center;
+}
+
+.filter
+{
+    margin-bottom:25px;
+}
+.filter .S1
+{
+    height:35px;
+    width:35px;
+    cursor:pointer;
+    background:#4655FA;
+    border-radius:150px;
+    padding:3px;
+    border:outset #4655FA 0.5px ;
+}
+.Search:placeholder-shown
+{
+    color:gray;
+    font-size:1.2em;
+}
+.filter .SearchDiv
+{
+    background:white;
+    height:40px;
+    border-radius:100px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding-right:3px;
+    border:inset #DEE0E2 1px;
+
+}
+.CatFilt
+{
+    padding:5px;
+    border-radius:100px;
+    text-align:center;
+}
+.CatFilt option
+{
+    text-align:center;
+}
+
+
+
+.Filters
+{
+    display:flex;
+    justify-content:space-evenly;
+    width:700px;
+    padding:5px;
+    background:none;
+}
+
+.Courses
+{
+    overflow-y:auto;
+    border:inset white 3px;
+    border-radius:15px;
+    height:350px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
+}
+::-webkit-scrollbar
+{
+    width:15px;
+}
+::-webkit-scrollbar-thumb
+{
+    background:linear-gradient(#4655FA, rgb(21, 38, 221));
+    border-radius:100px;
+}
+.Courses
+{
+    padding:15px;
+}
+.Courses .Card img
+{
+    height:200px;
+    width:200px;
+    border:outset white 3px;
+    border-radius:5px;
+    margin:15px;
+}
+
+.Details h1
+{
+    font-size:1.2em;
+    color:black;
+}
+
+.Details a
+{
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    text-transform: uppercase;
+    font-weight:bold;
+    color:#4655FA;
+    border:solid #4655FA 1px;
+    border-radius:5px;
+}
+.Details a:hover
+{   
+    color:white;
+    background:#4655FA;
+    text-decoration:none;
+}
+
+.Details
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    flex-direction:column;
+}
+
+.Card
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width:600px;
+    word-wrap: auto;
+    flex-direction:row;
+    margin-top:15px;
+    margin-bottom:15px;
+    border:outset white;
+    border-radius:5px;
+}
+
+table
+{
+    border-collapse:collapse;
+}
+
+.Prog td
+{
+    color:white;
+    background: #4655FA;
+    text-align:center;
+    border:outset black;   
+    padding:15px;
+}
+.Prog2 td
+{
+    color:black;
+    background: linear-gradient(to right,#E3E3E3,#D4D4D4);
+    text-align:center;
+    border:outset black;   
+    padding:15px;
+}
+
+.data3
+{
+    overflow:auto;
+    height:500px;
+    padding:25px;
+}
+.data4
+{
+    height:500px;
+    overflow:auto;
+    padding:25px;
+}
+textarea
+{
+    height:250px;
+    width:500px;
+    padding:5px;
+}
+
+textarea::placeholder
+{
+    color:gray;
+    font-size:1.1em;
+}
+
+input
+{
+    padding:10px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+input[type='text']
+{
+    width:450px;
+}
+
+input[type='number']
+{
+    width:100px;
+}
+form div
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.Text2
+{
+    width:500px;
+}
+
+.SubButt
+{
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+    color:#4655FA;
+    border:solid #4655FA 1px;
+    background:none;
+    text-transform: uppercase;
+    border-radius:5px;
+    width:200px;
+    font-weight:bold;
+}
+
+.SubButt:hover
+{
+    color:white;
+    background:#4655FA;
+    transition:0.3s;
+}
+
+.data1
+{
+    height:450px;
+    overflow:auto;
+    border:solid black;
+    border-radius:5px;
+    padding:35px;
+}
+.ProfileCam
+{
+    position:relative;
+    top:-930px;
+    left:330px;
+    cursor: pointer;
+}
+
+.CoverCam
+{
+    position:relative;
+    top:-1100px;
+    left:1090px;
+    cursor: pointer;
+}
+
+.EditDiv
+{
+    cursor: pointer;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border:solid #4655FA;
+    border-radius:5px;
+}
+
+.EditDiv a
+{
+    color:#4655FA;
+    font-size:1.2em;
+    font-weight:bold;
+}
+.EditDiv a:hover
+{
+    text-decoration:none;
+}
+
+.EditDiv:hover
+{
+    color:white;
+    background:#4655FA;
+    transition:0.3s;
+}
+.EditDiv a:hover
+{
+    color:white;
+    transition:0.3s;
+}
+
+.fixed-stage-top {
+    width: 50%;
+    top:150px; /*Edited here */
+    bottom:0; /*Edited here */
+    position: fixed;
+    overflow: hidden;
+    top: 150px;
+    left: 0;
+    background: #f1f1f1;
+    color: #000;
+ }
+
+ .Cardio 
+ {
+    height:550px;
+    width:10px;
+    border:solid black;
+    margin-bottom:500px;
+ }
+
+ .ImageUpload
+ {
+     background:white;
+    height:250px;
+    width:400px;
+    padding:15px;
+    padding-left:20px;
+    padding-right:20px;
+    position:fixed;
+    left:500px;
+    top:400px;
+    z-index:6;
+    background: linear-gradient(to right,#E3E3E3,#D4D4D4);
+    border:solid black;
+    border-radius:5px;
+ }
+ .ImageUpload2
+ {
+     background:white;
+    height:250px;
+    width:400px;
+    padding:15px;
+    padding-left:20px;
+    padding-right:20px;
+    position:fixed;
+    left:500px;
+    top:400px;
+    z-index:6;
+    background: linear-gradient(to right,#E3E3E3,#D4D4D4);
+    border:solid black;
+    border-radius:5px;
+ }
+ .CloseButton
+ {
+     display:flex;
+     justify-content:flex-end;
+ }
+ .CloseButton img
+ {
+     height:35px;
+     width:35px;
+     cursor:pointer;
+ }
+ .UploadFileSection
+ {
+     display:flex;
+     flex-direction:column;
+     justify-content:space-around;
+     align-items:center;
+ }
+
+ .CloseButton2
+ {
+     display:flex;
+     justify-content:flex-end;
+ }
+ .CloseButton2 img
+ {
+     height:35px;
+     width:35px;
+     cursor:pointer;
+ }
+ .UploadFileSection2
+ {
+     display:flex;
+     flex-direction:column;
+     justify-content:space-around;
+     align-items:center;
+ }

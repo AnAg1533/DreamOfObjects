@@ -1,0 +1,387 @@
+*
+{
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body
+{
+    margin:0px;
+    font-size:18px;
+    font-family:arial;
+    line-height:1.6;
+    background-color:#f1f2f6;
+}
+
+.containerF
+{
+    max-width:900px;
+    margin : 0 auto;
+}
+.tab_navigation
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.tab_navigation li
+{
+    display:inline-block;
+    padding:5px 15px;
+    background:#5f27cd;
+    min-width:169px;
+    text-align:center;
+    color:whitesmoke;
+    border-radius:5px 5px 0px 0px;
+    cursor:pointer;
+}
+.tab_navigation li.active,
+.tab_navigation li:hover
+{
+    background:#341f97;
+    transition:all 0.3s ease-in-out;
+}
+.tab_container_area
+{
+
+}
+.tab_container
+{
+    padding:30px;
+    background:#341f97;
+    color:white;
+    border-radius: 0 5px 5px 5px;
+    display:none; 
+}
+.book
+{
+    height:200px;
+    width:150px
+}
+
+.uploads
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:auto;
+    padding:15px;
+}
+
+.Upload
+{
+    height:200px;
+    width:200px;
+    margin:15px;
+}
+
+
+.UploadsSection
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.UploadForm
+{
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+}
+.Prof
+{
+    height:150px;
+    width:150px;
+    border-radius:300px;
+    border: solid black;
+    box-shadow:0px 1px 1px 1px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+.Logout
+{
+    height:70px;
+    width:50px;
+}
+
+.Heads
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    min-width:700px;
+}
+.Top
+{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+}
+.container
+{
+    margin-top:250px;
+    margin-top:0px;
+    padding:20px;
+}
+
+.One
+{
+    font-size:1.3em;
+    text-align:center;
+}
+
+table
+{
+    margin:auto;
+}
+
+td
+{
+    font-size:1.3em;
+    text-align:center;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.SearchForm1
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.Card
+{
+    padding:15px;
+    display:flex;
+    justify-content:space-evenly;
+    border:solid white;
+    border-radius:30px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+textarea
+{
+    height:250px;
+    width:450px;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:5px;
+    box-shadow:5px rgba(0,0,0,0.3);
+}
+
+.Report
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:column;
+}
+.tab_container_area
+{
+    margin-bottom:30px;
+}
+
+.Contact
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.Social
+{
+    margin-top:30px;
+}
+
+.SocialM
+{
+    height:50px;
+    width:50px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.Chat
+{
+    margin-top:50px;
+}
+
+.search-box
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+.detailLink
+{
+    color:#EBB700;
+    border:solid #EBB700;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+}
+
+.detailLink:hover
+{
+    text-decoration:none;
+    color:white;
+    background-color:#EBB700;
+    transition:0.3s;
+}
+
+.FilterButton
+{
+    color:#EBB700;
+    border:solid #EBB700;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    background:none;
+    width:250px;
+}
+
+.FilterButton:hover
+{
+    background-color:#EBB700;
+    color:white;
+    transition:0.3s;
+}
+
+
+.SelectBox select
+{
+    background-color:#EBB700;
+    color:white;
+    font-size:1.1em;
+    height:50px;
+    width:150px;
+    border-radius:5px;
+}
+ 
+.FilterSearch
+{
+    border:none;
+    background:none;
+    padding:10px;
+    color:white;
+}
+.SearchBar
+{
+    border:solid #EBB700;
+    border-radius:5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding:5px;
+}
+.searchPNG
+{
+    height:40px;
+    width:40px;
+}
+
+.SearchBar:active
+{
+    border:none;
+    box-shadow:none;   
+}
+
+.UploadForm
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+
+input[type='file']
+{
+	display:none;
+}
+label
+{
+	color:white;
+	height:60px;
+	width:250px;
+	background-color:#f5af09;
+	position:absolute;
+	margin: auto;
+	font-family:sans-serif;
+	display:flex; 
+	justify-content:center;
+    align-items:center;
+    border-radius:5px;
+    cursor:pointer;
+	
+}
+
+.File
+
+{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+.UploadP
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.UploadIMG
+{
+    height:25px;
+    width:25px;
+}
+
+.UpButton
+{
+    color:#f5af09;
+    background:none;
+    border:solid #f5af09;
+    padding:10px;
+    width:250px;
+    border-radius:5px;
+    font-size:1.1em;
+}
+
+.UpButton:hover
+{
+    background-color:#f5af09;
+    color:white;
+    transition:0.3s;
+}
+.SendButton
+{
+    color:#f5af09;
+    background:none;
+    border:solid #f5af09;
+    padding:10px;
+    width:250px;
+    border-radius:5px;
+    font-size:1.1em;
+}
+.SendButton:hover
+{
+    background-color:#f5af09;
+    color:white;
+    transition:0.3s;
+}
+.Credit
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
